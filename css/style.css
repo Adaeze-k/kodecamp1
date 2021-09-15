@@ -99,6 +99,7 @@ input[type=text], textarea {
   background-color: rgba(0, 77, 230, 0.76);
   color: #fff;
   padding: 12px 20px;
+  width: 58px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
