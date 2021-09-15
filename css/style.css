@@ -45,6 +45,7 @@ h1 {
 
 .article p {
   margin-left: 20px;
+  margin-bottom: 10px; /* format your code and use short codesz*/
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
