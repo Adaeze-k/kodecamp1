@@ -15,7 +15,7 @@ body {
   background: #f8ebeb;
 }
 .wrapper {
-  max-width: 1500px;
+  /*max-width: 1100px;*/
   width: 100%;
   background-color: #fff;
   padding: 25px; /*30px*/
@@ -27,7 +27,7 @@ body {
   display: flex;
 }
 img {
-  width: 200px;
+  width: 500px;
   margin: 10px;
 }
 
@@ -78,7 +78,7 @@ form {
   margin: 35px;
 }
 .contact-box h4{
-  font-size: 50px;
+  font-size: 40px;
   font-weight 400;
   line-height: 59px;
   margin-left: 50px
