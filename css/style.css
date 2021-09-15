@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  background: #f8ebeb;
+}
+.wrapper {
+  max-width: 1100px; /*550px*/
+  width: 100%;
+  background-color: #fff;
+  padding: 25px; /*30px*/
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.about-section {
+  display: flex;
+}
+img {
+  width: 422px;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+.article p {
+  margin: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0d0c0c;
+}
+.article h3 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 90px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+}
+.article h3::after {
+  content: "";
+  height: 4px;
+  width: 70px;
+  border-radius: 1px;
+  background: #d89616;
+  display: block;
+  margin: auto;
+}
+.contact-box {
+  background: #1d1b1b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+form {
+  margin: 35px;
+}
+.form-input {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #0d0c0c;
+  border-radius: 5px;
+}
